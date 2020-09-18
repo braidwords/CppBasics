@@ -9,6 +9,7 @@
 #include<vector>
 #include "pointerExample.cpp"
 #include "vectorIterator.cpp"
+#include "primitiveDataTypes.cpp"
 
 /*int g_myvariable; //global variable declared; the scope remains throughput the program.By default, the value is initialized by 0.
 //using namespace std;
@@ -28,6 +29,7 @@ int main()
     student_object.roll_num;
     std::cout << student_object.roll_num << std::endl;
     std::cout << student_object.student_name << std::endl;
+    primitiveDataType dataObject;
     //StudentDetails details;
     //std::vector<int> numbers;
    // numbers.reserve(10);
@@ -52,7 +54,6 @@ int main()
             printHex();
             userData();
             var.printNames();*/
-
             /*details.Students.push_back({ 1, "kusum" });
             std::cout << "The capacity of the vector is: " << details.Students.capacity() << '\n';
             details.Students.push_back({ 2, "Mukesh" });
@@ -95,6 +96,8 @@ int main()
 
     vectorIterator.input_values();
     vectorIterator.print_values();
+
+    dataObject.getSize();
     return 0;
 }
 void Increment(int& c)
